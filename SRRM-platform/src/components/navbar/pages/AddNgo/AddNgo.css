@@ -1,0 +1,46 @@
+.ngo-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.ngo-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: auto;
+}
+
+.ngo-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.ngo-form input,
+.ngo-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #27ae60;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

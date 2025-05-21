@@ -1,0 +1,118 @@
+/* General Page Styles */
+.ngo-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.discoverpageheading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.donation-row {
+  margin-bottom: 30px;
+}
+
+.ngo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.ngo-box {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ngo-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.ngo-box p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Stories Section */
+.stories-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.stories-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Stories Container */
+.stories-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Story Box */
+.story-box {
+  width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.story-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.story-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f; /* Red color to match testimonial title */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.story-content {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.read-more {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}

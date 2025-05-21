@@ -1,0 +1,121 @@
+
+.about-us-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .about-us-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .about-us-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .about-us-paragraph {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .about-us-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-highlight {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  /* Style for the image */
+.about-us-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
+  }
+
+  .about-us-image {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  /*       stories css                                     */
+  /* Container for the impact stories */
+.impact-stories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Individual story box styling */
+.story-box {
+  flex: 1;
+  max-width: 30%; /* Adjusts the width of each box */
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Heading styles for each story */
+.story-box h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+.story-box p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Link styling for "Read more" */
+.read-more-link {
+  font-size: 1rem;
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #c0392b;
+}
+
+
+@media (max-width: 768px) {
+  .story-box {
+    max-width: 100%; 
+    margin-bottom: 20px;
+  }
+}

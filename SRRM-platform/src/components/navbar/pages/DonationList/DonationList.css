@@ -1,0 +1,21 @@
+.donation-list-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .donation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .donation-table th, .donation-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .donation-table th {
+    background-color: #f4f4f4;
+  }
+  

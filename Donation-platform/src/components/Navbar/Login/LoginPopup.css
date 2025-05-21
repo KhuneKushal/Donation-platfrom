@@ -1,0 +1,65 @@
+.login-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    z-index: 2000; /* Ensure this is higher than other content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.login-popup h2 {
+    margin-top: 0;
+}
+
+.login-popup input {
+    width: calc(100% - 20px); /* Adjusted width to fit within the container */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.login-popup button {
+    width: calc(100% - 40px); /* Adjusted width to fit within the container */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.login-popup button:hover {
+    background-color: #0056b3;
+}
+
+.login-popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px; /* Ensure the close button is easily clickable */
+}
+
+.hover-text {
+    color: blue;
+    cursor: pointer;
+}
+
+.hover-text:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
